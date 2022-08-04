@@ -4,102 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portifolio </title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Portifolio</title>
 </head>
 <body>
     <!--Navegador-->
-    <section>
+    <header class="header-container">
         <nav>
-            <a href="#" class="logo">Aristoteles Barbosa</a>
             <ul>
-                <li><a href="#" class="ative">Home</a></li>
-                <li><a href="#" >Sobre</a></li>
-                <li><a href="#" >Equipe</a></li>
-                <li><a href="#" >Contato</a></li>
+                <li>
+                    <a href="#sobre" class="underline-nav">Sobre</a>
+                    <a href="#projetos" class="underline-nav">Projetos</a>
+                    <a href="#footer" class="underline-nav">Contato</a>
+                </li>
             </ul>
         </nav>
+    </header>
+
+    <!--Capa-->
+    <section id="capa">
+        <div class="imagem">
+            <img src="./image/codigo.jpg" alt="">
+        </div>  
         <div class="conteudo-texto">
-            <p>Bem vindos</p>
-            <p>Eu sou Aristoteles</p>
-            <p>Estudante de engenharia da Computação</p>
-            <button class="btn1">Saiba mais</button>
-            <button class="btn2">CV</button>
-        </div>
-    </section>  
-    <!--Conteudos-->
-    <div class="conteudo-sobre">
-        <img src="./img/Projeto.jpg" >
-        <div class="texto-sobre">
-            <p>Sobre</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            <button class="btn1">Saiba mais</button>
-            <button class="btn2">Download CV</button>
-        </div>
-
-        
-    </div>
+            <h1>Front End Developer</h1>
+            <p>Aristoteles Barbosa</p>
+            <button>SAIBA MAIS</button>        
+        </div>  
+    </section>
     
-    <div>
-        <img src="img/pessoas-construindo-pc.png" class="imgpcp" alt="imgpcp">
-    </div>
-    <!--Serviços-->
-    <div class="servicos">
-        <div class="servicos-textos">
-            <p>Serviços</p>
-            <p>Como posso te ajudar</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sed, ipsum minima consectetur quis maxime? Fugiat, vero nulla! Odi</p>
-
-
-        </div>
-        <div class="conteudo-box">
-            <div class="box1">
-                <span>1</span>
-                <p class="hadid">Web Desingn</p>
-                <br>
-
-                <p class="detalhes">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Nesciunt ullam pariatur qui facere. Dolore magnam incidunt moll</p>
-                
-                <button>Saiba mais</button>
-            </div>
-            <div class="box2">
-                <span>2</span>
-                <p class="hadid">Web Desingn</p>
-                <br>
-
-                <p class="detalhes">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Nesciunt ullam pariatur qui facere. Dolore magnam incidunt moll</p>
-                
-                <button>Saiba mais</button>
-            </div>
-            <div class="box3">
-                <span>3</span>
-                <p class="hadid">Web Desingn</p>
-                <br>
-
-                <p class="detalhes">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Nesciunt ullam pariatur qui facere. Dolore magnam incidunt moll</p>
-                
-                <button>Saiba mais</button>
-            </div> <div class="box4">
-                <span>4</span>
-                <p class="hadid">Web Desingn</p>
-                <br>
-
-                <p class="detalhes">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Nesciunt ullam pariatur qui facere. Dolore magnam incidunt moll</p>
-                
-                <button>Saiba mais</button>
-            </div>
-
+    <!--Sobre-->
+    <section id="sobre">
+        <div class="conteudo-sobre">
+            <p>Sobre</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>        
         </div>
 
-    </div>
+        <div class="servicos">
+        
+        </div>
+    </section>
+    <!--Projetos-->
+    <section id="projetos">
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Projeto 2<h2>
+                        <p>Vem ver!</p>
+                    </div>
+                </div>    
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quidem facere molestiae sed eius                       fugiat praesentium reiciendis excepturi possimus aperiam voluptate, neque, dicta unde numquam, r
+                    eprehenderit esse. Aspernatur, quis officia.
+                </div>    
+    
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Projeto 3<h2>
+                        <p>Vem ver!</p>
+                    </div>
+                </div>    
+                <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quidem facere molestiae sed eius                       fugiat praesentium reiciendis excepturi possimus aperiam voluptate, neque, dicta unde numquam, r
+                    eprehenderit esse. Aspernatur, quis officia.
+                </div>    
+    
+            </div>
+        </div>
+    
+        <div class="servicos">
+           
+        </div>
+        </section>
+    
+          <!--Footer-->
+    <section id="footer">
+        <div class="conteudo-footer">
+            <p>Contato</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>        
+        </div>
+    
+        <div class="servicos">
+           
+        </div>
+        </section>
+    
 </body>
 </html>
